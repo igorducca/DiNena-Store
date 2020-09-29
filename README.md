@@ -1,7 +1,15 @@
 # DiNena Store
 
-## Feita em react com banco de dados MySql
+Foobar is a Python library for dealing with word pluralization.
 
-### Desenvolvido por Igor Duca
+## Sobre o projeto
 
-### Data de início: 25/08/2020
+```
+A DiNena store é a loja virtual da equipe de Futebol Zé Di Nena, com seu aplicativo web para facilitar a vida dos torcedores da equipe que querem comprar nosso "merch", e vestirem a nossa equipe!
+```
+
+## Como foi desenvolvido
+A DiNena store foi programada em ReactJs com seu banco de dados em MySql, tendo a ligação entre ambos componentes pelo Axios
+
+## Contato do desenvolvedor
+[Twitter](https://twitter.com/IgoDuca)
