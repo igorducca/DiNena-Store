@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './Pages/Home'
-// import Login from './Pages/Login'
+import Estoque from './Pages/Estoque'
  
 class App extends Component {
   render() {
@@ -11,6 +11,7 @@ class App extends Component {
         <div>
           <Switch>
             <Route path="/" component={Home} exact/>
+            <Route path="/estoque" component={Estoque} exact/>
           </Switch>
         </div> 
       </BrowserRouter>
