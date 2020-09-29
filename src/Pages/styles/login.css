@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+.nativeLoginButton {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-family: 'Epilogue', sans-serif;
+    transition: .7s;
+}
+
+.nativeLoginButton:hover {
+    height: 80px;
+    width: 250px;
+    background: url('https://media.giphy.com/media/3oKIPtjElfqwMOTbH2/giphy.gif');
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+}

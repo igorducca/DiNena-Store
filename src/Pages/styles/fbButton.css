@@ -1,0 +1,9 @@
+.continueButton {
+    background-color:"red";
+    border:"none";
+    height:"50px"; 
+    width:"150px"; 
+    color:"white"; 
+    cursor:"pointer"; 
+    border-radius:"16px";
+}

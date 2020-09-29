@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@700&family=Noto+Sans:wght@700&family=Roboto+Mono:wght@500&display=swap');
+
+body {
+  background: url("https://media.giphy.com/media/kGV3Ia21r8W9q/giphy.gif");
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+#mainForm {
+  align-items: center;
+  
+  background-color: #2d2d2e; 
+  border-radius: 8px;
+  margin: 80px auto;
+  padding: 64px;
+  max-width: 1000px;
+  width: 900px;
+  box-sizing: border-box;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  padding: 10px;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 32px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-color: black;
+  border-style: groove;
+  font-size: 15px;
+
+  transition: .7s;
+}
+
+input:focus {
+  background-color: white;
+  border-color: red;
+  color: red;
+  border-radius: 4px;
+}
+
+.globalButton {
+  width: 150px; 
+  height: 50px; 
+  border: none;
+  border-radius: 8px;
+  color: #2c2b2b;
+  font-family: 'Kufam', cursive;
+  cursor: pointer;
+
+  transition: .7s;
+}
+
+li {
+  font-family: 'Roboto Mono', monospace;
+  list-style-type: circle;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
